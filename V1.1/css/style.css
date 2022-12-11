@@ -1,83 +1,136 @@
-#Pergunta
-{ 
-    width:350px; 
-    height:70px; 
-    padding:10px; 
-    border:1px solid #aaaaaa; 
+body
+{
+    background-image: url("../img/doodlw.png");
 }
 
-#R1
+
+
+#Pergunta
 { 
-    width:350px; 
-    height:70px; 
-    padding:10px; 
-    border:1px solid #aaaaaa; 
+    font-size: 1.3rem;
+    position: absolute;
+    top: 20px;
+    left: 500px;
+    text-align: center;
+    width:650px; 
+    height:px; 
+    padding:30px 5px; 
+    background-color: #ffffff;
+    border-radius: 20px;
+
+    user-select: none;      
+}
+
+.respostas
+{
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-around;
 }
 
 .Resposta1
 { 
-    width:350px; 
-    height:70px; 
+    font-size: 1.2rem;
+    position: absolute;
+    top: 230px;
+    left: 560px;
+    text-align: center;
+    flex-wrap: wrap;
     padding:10px; 
-    border:1px solid #aaaaaa; 
+    border-radius: 30px;
+    background-color: white;
+
+    width: 170px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word
 }
 
 .Resposta2
 { 
-    width:350px; 
-    height:70px; 
+    position: absolute;
+    top: 230px;
+    right: 500px;
+    text-align: center;
+    flex-wrap: wrap;
     padding:10px; 
-    border:1px solid #aaaaaa; 
+    border-radius: 30px;
+    background-color: white;
+
+    width: 170px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word
 }
 
-#R2
-{ 
-    width:350px; 
-    height:70px; 
-    padding:10px; 
-    border:1px solid #aaaaaa; 
-}
 
 .Resposta3
 { 
-    width:350px; 
-    height:70px; 
+    position: absolute;
+    top: 430px;
+    left: 560px;
+    text-align: center;
+    flex-wrap: wrap;
     padding:10px; 
-    border:1px solid #aaaaaa; 
-}
-#R3
-{ 
-    width:350px; 
-    height:70px; 
-    padding:10px; 
-    border:1px solid #aaaaaa; 
+    border-radius: 30px;
+    background-color: white;
+
+    width: 170px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word
 }
 
 .Resposta4
 { 
-    width:350px; 
-    height:70px; 
+    position: absolute;
+    top: 430px;
+    right: 500px;
+    text-align: center;
+    flex-wrap: wrap;
     padding:10px; 
-    border:1px solid #aaaaaa; 
-}
+    border-radius: 30px;
+    background-color: white;
 
-#R4
-{ 
-    width:350px; 
-    height:70px; 
-    padding:10px; 
-    border:1px solid #aaaaaa; 
+    width: 170px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word
 }
-
 
 .DivDestino
-{ 
-    width:350px; 
+{   
+    position: absolute;
+    left: 800px;
+    bottom: 50px;
+    text-align: center;
+    width:100px; 
     height:70px; 
     padding:10px; 
-    border:1px solid #aaaaaa; 
+    background-color: #efc830;
+    border-radius: 20px;
+
+    font-weight: bold;
+         
+    user-select: none;  
 }
 
+.btn_enviar
+{
+    
+}
+
+input
+{
+    background-color: #efc830;
+    border-radius: 20px;
+    position: absolute;
+    z-index: 5;
+    right: 46%;
+    bottom: 10%;
+
+
+}
 /* --- ALTERAÇÃO BACK-END --- */
 
 body

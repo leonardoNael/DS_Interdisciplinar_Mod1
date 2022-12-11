@@ -70,6 +70,7 @@ function drop1(ev)
     var btn = document.createElement("input");  
     btn.type = 'button';  
     btn.value = 'Enviar';  
+    btn.className ="btn_enviar"
     btn.onclick = function() { 
 
         for(var inc = 0; inc < 13; inc++)
