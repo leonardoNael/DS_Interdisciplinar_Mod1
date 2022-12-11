@@ -1,0 +1,29 @@
+teste inicial:
+
+-tbUsuario
+idUsuario
+usuario
+senha
+idNivel
+
+-tbLogin
+idLogin
+dtLogin
+tempoLogado
+pgLidas
+
+banco definitivo
+-tbCadastro
+idCadastro
+nome
+genero
+dtNasc
+dtCad
+email
+senha
+
+-tbNivel
+idNivel
+descNivel
+qtPaginas
+qtHoras
